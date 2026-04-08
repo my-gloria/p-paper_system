@@ -1,0 +1,171 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.upload-container {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 30px;
+  width: 500px;
+  position: relative;
+    /* CURVED EFFECT */
+    border-top-left-radius: 50% 100px;
+    border-top-right-radius: 50% 100px;
+}
+
+.drag-text {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 24px;
+  font-weight: bold;
+  color: #888;
+  margin-right: 20px;
+}
+
+.upload-box {
+  flex: 1;
+}
+
+.upload-box h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.drop-area {
+  border: 2px dashed #aaa;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  color: #666;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.drop-area input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.file-types {
+  font-size: 14px;
+  color: #999;
+}
+
+.secure {
+  font-size: 14px;
+  color: green;
+  margin: 5px 0 15px;
+}
+
+.upload-btn {
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.upload-btn:hover {
+  background: #357ab8;
+}
+
+.credits {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  text-align: right;
+  font-size: 13px;
+  color: #888;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* 🔵 BLUE BACKGROUND SHAPE */
+
+/* ⚪ WHITE CARD */
+.card {
+    position: relative;
+    width: 400px;
+    margin: 100px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    z-index: 2; /* stays above blue */
+}
+
+.card h2 {
+    margin-bottom: 15px;
+}
+
+.card label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.card input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.drop-area {
+    margin-top: 10px;
+    padding: 40px;
+    border: 2px dashed #4c6ef5;
+    text-align: center;
+    border-radius: 10px;
+    color: #4c6ef5;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background: #1e4ed8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
