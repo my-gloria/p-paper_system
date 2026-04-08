@@ -1,0 +1,92 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body styling */
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom, #c9d6e8, #9fb6d9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    width: 320px;
+}
+
+/* Logo (you will replace the image) */
+.logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+/* Title */
+h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+.input-box {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    background: #e6e6e6;
+    outline: none;
+    font-size: 14px;
+}
+
+/* Button */
+.button {
+    width: 50%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(to right, #2f6edb, #1f4ea3);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover */
+button:hover {
+    opacity: 0.9;
+}
+
+/* Bottom text */
+p {
+    margin-top: 12px;
+    font-size: 13px;
+    color: #555;
+}
+
+/* Link */
+a {
+    color: #2f6edb;
+    text-decoration: none;
+    font-weight: bold;
+} 
+.container {
+  max-width: 400px;   /* limits how wide it can be */
+  width: 100%;        /* allows it to shrink on small screens */
+
+  margin: 80px auto;  /* centers it horizontally */
+  padding: 25px;
+
+  background: linear-gradient(to bottom, #c9d6e8, #04275c);
+  border: 2px solid #ddd;   /* frame */
+  border-radius: 10px;
+
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
